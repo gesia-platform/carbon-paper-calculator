@@ -1,4 +1,4 @@
-# 🌳 Paper
+# 🌳 Paper Carbon Footprint Calculator
 
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
