@@ -22,9 +22,6 @@ contract CarbonPaperCalculator {
         operatorManager = _operatorManager;
     }
 
-    constructor() {
-    }
-
     function addPaperSize(string memory paperType, uint256 width, uint256 height) external operatorsOnly {
         // paper size scaled by 10 000 (widthxheight)
         paperSizes[paperType] = calculateWeight(width, height, DENSITY);
@@ -46,7 +43,7 @@ contract CarbonPaperCalculator {
         // weightGramsScaled -> scaled by 10 000
         // weightGramsScaled (g->kg) -> 1000
         // total 10**11
-        uint256 result = (CO2_PER_KG * weightGramsScaled * 10 ** 18) / 10 ** 11;
+        uint256 result = (CO2_PER_KG * weightGramsScaled * 1e18) / 1e11;
         return result * count;
     }
 
@@ -55,7 +52,7 @@ contract CarbonPaperCalculator {
         // CO2_PER_KG -> scaled by 10 000
         // two sizes -> scaled by 10 000 total 100 000 000
         // total 10**12
-        uint256 result = (CO2_PER_KG * sizeScaled * 10 ** 18) / 10 ** 12;
+        uint256 result = (CO2_PER_KG * sizeScaled * 1e18) / 1e12;
         return result * count;
     }
 
@@ -82,4 +79,5 @@ contract CarbonPaperCalculator {
         uint256 weightPaper = getPaperWeight(paperType);
         return calculateCO2ByWeight(weightPaper, count);
     }
+
 }
