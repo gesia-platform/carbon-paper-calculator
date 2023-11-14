@@ -37,14 +37,14 @@ calculateCO2ByPaperWeight(paperType, count)
 
 A4(5g)
  - calculateCO2ByPaperWeight(A4, 1)
- - 565000000000000 (in UI it should be divied by 18 decimals 0.000565)
+ - 565000000000000 (in UI it should be divided by 18 decimals 0.000565)
 ```
 ```
 calculateCO2ByPaperSize(paperType, count)
 
 A4(210mm x 297mm)
  - calculateCO2ByPaperSize(A4, 1)
- - 563824800000000 (in UI it should be divied by 18 decimals 0.0005638248)
+ - 563824800000000 (in UI it should be divided by 18 decimals 0.0005638248)
 ```
 
 ## 🚀 Smart Contract Deployment Information
@@ -63,8 +63,8 @@ The Smart Contract-Based Carbon Footprint Calculator has been deployed on the Ge
 
 You can verify the deployment of the Calculator Contract by checking the contract address and transaction hash on [Gesia Explorer](https://explorer.gesia.io). Here are the links for your convenience:
 
-- [Operator Contract on Gesia](https://explorer.gesia.io/address/0x2694127C083dDD8cCA4a48fbdA63886091F784Aa)
-- [Calculator Contract on Gesia](https://explorer.gesia.io/address/0x402a11Bca59645d021F22401AaaC88d0Ae4d3467)
+- [Operator Contract on Gesia Chain](https://explorer.gesia.io/address/0x2694127C083dDD8cCA4a48fbdA63886091F784Aa)
+- [Calculator Contract on Gesia Chain](https://explorer.gesia.io/address/0x402a11Bca59645d021F22401AaaC88d0Ae4d3467)
 
 ## 📝 How is it calculated?
 It calculates the carbon emissions for each paper type by referencing the average carbon emissions per ton of paper from [How to read Paper Carbon Footprints](https://www.holmen.com/en/paper/sustainability/sustainability-stories/how-to-undrestand-carbon-footprints)
