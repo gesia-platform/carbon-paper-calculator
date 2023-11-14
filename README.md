@@ -47,6 +47,25 @@ A4(210mm x 297mm)
  - 563824800000000 (in UI it should be divied by 18 decimals 0.0005638248)
 ```
 
+## 🚀 Smart Contract Deployment Information
+
+The Smart Contract-Based Carbon Footprint Calculator has been deployed on the Gesia Chain. Below are the deployment details:
+
+### Operator Contract
+
+- **Contract Address**: 0x2694127C083dDD8cCA4a48fbdA63886091F784Aa
+- **Transaction Hash**: 0x60c355edd3a72c97f78b679ca9757a92b7cd81872f0bc98d6af38a590200eac8
+
+### Calculator Contract
+
+- **Contract Address**: 0x402a11Bca59645d021F22401AaaC88d0Ae4d3467
+- **Transaction Hash**: 0x7d316cc6a8adcf895a422a8d50c2d559c04fe89c689d80d4ad4e48fbda6f041f
+
+You can verify the deployment of the Calculator Contract by checking the contract address and transaction hash on [Gesia Explorer](https://explorer.gesia.io). Here are the links for your convenience:
+
+- [Operator Contract on Gesia](https://explorer.gesia.io/address/0x2694127C083dDD8cCA4a48fbdA63886091F784Aa)
+- [Calculator Contract on Gesia](https://explorer.gesia.io/address/0x402a11Bca59645d021F22401AaaC88d0Ae4d3467)
+
 ## 📝 How is it calculated?
 It calculates the carbon emissions for each paper type by referencing the average carbon emissions per ton of paper from [How to read Paper Carbon Footprints](https://www.holmen.com/en/paper/sustainability/sustainability-stories/how-to-undrestand-carbon-footprints)
 
