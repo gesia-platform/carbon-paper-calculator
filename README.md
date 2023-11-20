@@ -12,7 +12,7 @@ addPaperWeight(paperType, weight)
 
 A4(5g)
  - Scale by 10000
- - addPaperSize(A4, 50000)
+ - addPaperWeight(A4, 50000)
 ```
 ```
 addPaperSize(paperType, width, height)
