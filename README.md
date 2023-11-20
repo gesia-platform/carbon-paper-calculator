@@ -28,7 +28,7 @@ A4(210mm x 297mm)
 getPaperWeight(paperType)
 ```
 ```
-getPaperWeight(paperType)
+getPaperSize(paperType)
 ```
 
 **Calculate Carbon Footprint (Public)**: Users can calculate the carbon footprint by providing the paper type and the quantity they have consumed. This public function returns an estimate of the carbon footprint associated with the specified paper type and quantity.
