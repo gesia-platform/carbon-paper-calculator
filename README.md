@@ -71,12 +71,16 @@ It calculates the carbon emissions for each paper type by referencing the averag
 
 The following formula is the essential formula of Carbon Footprint Calculator.
 ``` plain
-# If you know the weight of paper
-0.113 x weight of paper(kg) x number of paper
+# emission factor of paper: 0.113
 
-If you don't know the weight of paper
-0.113 x 80 x area of paper(m²) x number of paper
- ```
+# If you know the weight of paper
+emission factor of paper(kgCO2/kg) x weight of paper(kg) x number of paper
+
+# If you don't know the weight of paper
+emission factor of paper(kgCO2/kg) x 80 x area of paper(m²) x number of paper
+```
+
+Please refer to the [Link](https://docs.google.com/spreadsheets/d/1Ux_1j0GeKGeHm8ODT-M-Hr23sCayQYw70shNw2le0Bs/edit#gid=0) for more detailed info. 
 
 ## 📚 Sources
 - [How to read Paper Carbon Footprints](https://www.holmen.com/en/paper/sustainability/sustainability-stories/how-to-undrestand-carbon-footprints)
