@@ -69,6 +69,15 @@ You can verify the deployment of the Calculator Contract by checking the contrac
 ## 📝 How is it calculated?
 It calculates the carbon emissions for each paper type by referencing the average carbon emissions per ton of paper from [How to read Paper Carbon Footprints](https://www.holmen.com/en/paper/sustainability/sustainability-stories/how-to-undrestand-carbon-footprints)
 
+The following formula is the essential formula of Carbon Footprint Calculator.
+``` plain
+# If you know the weight of paper
+0.113 x weight of paper(kg) x number of paper
+
+If you don't know the weight of paper
+0.113 x 80 x area of paper(m^2) x number of paper
+ ```
+
 ## 📚 Sources
 - [How to read Paper Carbon Footprints](https://www.holmen.com/en/paper/sustainability/sustainability-stories/how-to-undrestand-carbon-footprints)
 
