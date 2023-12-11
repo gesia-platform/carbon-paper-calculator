@@ -75,7 +75,7 @@ The following formula is the essential formula of Carbon Footprint Calculator.
 0.113 x weight of paper(kg) x number of paper
 
 If you don't know the weight of paper
-0.113 x 80 x area of paper(m^2) x number of paper
+0.113 x 80 x area of paper(m²) x number of paper
  ```
 
 ## 📚 Sources
